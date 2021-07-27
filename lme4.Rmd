@@ -1,7 +1,7 @@
 ---
-title: "rstanarm"
+title: "lme4"
 description: |
-  rstanarm is a model-fitting R package that uses pre-compiled Stan programs  for the back-end estimation.
+  lme4 is a model-fitting R package.
 ---
 
 

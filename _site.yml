@@ -11,8 +11,8 @@ navbar:
       href: wbs.html
     - text: "brms"
       href: brmsweb.html
-    - text: "rstanarm"
-      href: rstanarmweb.html
+    - text: "lme4"
+      href: lme4.html
     - text: "About Me"
       href: about.html
     - icon: fab fa-github
