@@ -24,12 +24,12 @@
       "last_modified": "2021-07-27T14:17:48-04:00"
     },
     {
-      "path": "rstanarmweb.html",
-      "title": "rstanarm",
-      "description": "rstanarm is a model-fitting R package that uses pre-compiled Stan programs  for the back-end estimation.",
+      "path": "lme4.html",
+      "title": "lme4",
+      "description": "lme4 is a model-fitting R package.",
       "author": [],
-      "contents": "\n\nstan_glmer\n family:       binomial [logit]\n formula:      correct ~ -1 + (1 | pair_id) + (1 | examiner_id)\n observations: 2986\n------\n     Median MAD_SD\n\nError terms:\n Groups      Name        Std.Dev.\n pair_id     (Intercept) 3.4     \n examiner_id (Intercept) 1.3     \nNum. levels: pair_id 315, examiner_id 170 \n\n------\n* For help interpreting the printed output see ?print.stanreg\n* For info on the priors used see ?prior_summary.stanreg\nTime difference of 1.907012 mins\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-07-27T14:19:47-04:00"
+      "contents": "\n\nstan_glmer\n family:       binomial [logit]\n formula:      correct ~ -1 + (1 | pair_id) + (1 | examiner_id)\n observations: 2986\n------\n     Median MAD_SD\n\nError terms:\n Groups      Name        Std.Dev.\n pair_id     (Intercept) 3.4     \n examiner_id (Intercept) 1.3     \nNum. levels: pair_id 315, examiner_id 170 \n\n------\n* For help interpreting the printed output see ?print.stanreg\n* For info on the priors used see ?prior_summary.stanreg\nTime difference of 1.801347 mins\n\n\n\n\n\n\n\n",
+      "last_modified": "2021-07-27T14:32:16-04:00"
     },
     {
       "path": "wbs.html",
