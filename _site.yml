@@ -2,6 +2,7 @@
 name: ""
 title: "R Website"
 theme: theme.css
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
