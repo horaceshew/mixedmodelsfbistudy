@@ -29,3 +29,25 @@ wbstudy_determinations <- read_excel("WhiteBox_PublicDataRelease.xlsx",
 wbstudy_determinations <- wbstudy_determinations %>% clean_names() 
 ```
 
+
+```{r, include=TRUE}
+#plot of difficulty vs correct	
+diffcorrect <- wbstudy_determinations %>% 
+  group_by(mating, comparison_determination) %>%
+	filter(comparison_determination != "None") %>%
+	mutate(correct = ifelse((mating == "Mates" & comparison_determination == "ID")
+	 | (mating == "Non-mates" & comparison_determination == "Exclusion"), 
+	 TRUE, FALSE)) %>%
+	 select(c(examiner_anon, pair_id, mating, comparison_determination, 
+	          correct, difficulty)) %>%
+	 separate(examiner_anon, 
+	          into = c("examiner_type", "examiner_id"), sep = 2) %>%
+	 select(-examiner_type) %>%
+	 mutate(difficulty = fct_relevel(difficulty, "VERYEASY", "EASY", "MODERATE", "DIFFICULT", "VERYDIFFICULT"))
+
+ggplot(diffcorrect) + geom_bar(mapping = aes(x = difficulty, fill = correct),   position = "fill") +
+	theme_fivethirtyeight() +
+	scale_fill_brewer(name = "Answer", labels = c("Incorrect", "Correct"), 
+	                  palette = "Paired") +
+	labs(title = "Number of Correct Determinations by Difficulty") 
+```
