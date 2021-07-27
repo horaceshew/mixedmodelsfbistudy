@@ -2451,9 +2451,38 @@ Figure 1: Test workflow
 <p>During the analysis phase, the examiner annotated clarity and features. Afterwards, they recorded a value determination: value for individualization (VID), value for exclusion only (VEO), or no value (NV). During the comparison phase, the examiner recorded a comparison determination: individualization, exclusion, or inconclusive.</p>
 <h2 id="data">Data</h2>
 <p>There were eight public data tables provided from the White Box study. The following table contains the value and comparison determinations for each trial. In addition, it contains information on the number of features marked and corresponding features between latents and exemplars. Each row corresponds to a presentation of an image pair to an examiner. In this dataset, 170 examiners responded to approximately 22 presentation of image pairs.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code># A tibble: 3,730 x 17
+   pair_id examiner_anon mating latent_value_analy… latent_value_comp…
+   &lt;chr&gt;   &lt;chr&gt;         &lt;chr&gt;  &lt;chr&gt;               &lt;chr&gt;             
+ 1 M010003 EA1338        Mates  VID                 VID               
+ 2 M010003 EA1365        Mates  VID                 VID               
+ 3 M010003 EA1424        Mates  VID                 VID               
+ 4 M010003 EA1474        Mates  VID                 VID               
+ 5 M010003 EA1480        Mates  VID                 VID               
+ 6 M010003 EA1567        Mates  VID                 VID               
+ 7 M010003 EA1657        Mates  VID                 VID               
+ 8 M010003 EA1675        Mates  VID                 VID               
+ 9 M010003 EA1689        Mates  VID                 VID               
+10 M010003 EA1747        Mates  VID                 VID               
+# … with 3,720 more rows, and 12 more variables:
+#   exemplar_value &lt;chr&gt;, comparison_determination &lt;chr&gt;,
+#   difficulty &lt;chr&gt;, latent_minutiae &lt;dbl&gt;, latent_cores &lt;dbl&gt;,
+#   latent_deltas &lt;dbl&gt;, latent_points &lt;dbl&gt;,
+#   exemplar_minutiae &lt;dbl&gt;, corresp_minutiae &lt;dbl&gt;,
+#   corresp_core &lt;dbl&gt;, corresp_delta &lt;dbl&gt;, corresp_points &lt;dbl&gt;</code></pre>
+</div>
+<p>Examiners also gave a difficulty rating for each question. This plot shows the number of correct determinations for each difficulty rating.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="wbs_files/figure-html5/unnamed-chunk-3-1.png" width="624" /></p>
+</div>
+<p>This plot shows the number of corresponding minutiae marked for each difficulty rating.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="wbs_files/figure-html5/unnamed-chunk-4-1.png" width="864" /></p>
+</div>
 <h2 id="conclusions">Conclusions</h2>
 <p>This study found that there were significant differences among examiners’ annotations. However, the study could not distinguish whether this was due to how the examiners interpreted the data or how they document them. In addition, the lack of a standard for marking features possibly contributed to the observed variability in annotations. Examiners’ individualization determinations were found to be related to the number of corresponding minutiae marked while clarity was not as strongly associated. While ACE is designed such that determinations are based on the evaluation of features, the study suggests that examiners may reach preliminary determinations prior to the comparison phase.These findings suggests that a standardized procedure could lead to more consistency in annotations and better transparency in casework.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
