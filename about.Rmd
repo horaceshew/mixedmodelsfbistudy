@@ -1,0 +1,14 @@
+---
+title: "Horace Shew"
+image: "hshew.jpg"
+links:
+  - label: Email
+    url: "mailto:hshew1@swarthmore.edu"
+output:
+  postcards::trestles
+---
+## Bio
+I am a rising senior at Swarthmore College. I'm currently working as a summer research assistant with Professor Amanda Luby. I major in Mathematics with an emphasis in Statistics and minor in Classics. I also represent the college as a member of the men's swim team.
+
+## Education
+Swarthmore College | Swarthmore, PA | 2018-2022

@@ -1,0 +1,17 @@
+---
+title: "brms"
+description: |
+  brms is a package in R that allows users to fit Bayesian generalized mulitilevel models using stan for Bayesian inference.
+---
+
+
+```{r, echo=FALSE}
+library(graphics)
+library(bookdown)
+library(knitr)
+
+
+```
+
+
+

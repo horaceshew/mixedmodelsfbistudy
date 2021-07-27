@@ -1,0 +1,160 @@
+1.Female	1.Male	2.Age	3.HS	3.AD	3.BD	3.GD	4.ForeignPrivate	4.Federal	4.State	4.Local	4.Private	5.Nation	6.UNK	6.No	6.Yes	7.10pYears	8.None	8.<6	8.6-12MO	8.1+YRS	9.LatentYears	10.Formal	10.Informal	10.Limited	11.<6	11.6-12MO	11.1+YRS	12.Agency-NonEmployer	12.Employer	12.Other	12.Private	13.Accredited_Employer	13.IAI-Latent	13.IAI-TenPrint	13.NA-Employer	13.National	14.No	14.Never	14.Yes	15.No	15.Never	15.Yes	16.No	16.Yes-Both	16.Y-Internal	16.Yes-Outside	17.Current	17.No	17.Previously	18.No	18.Previously	18.Yes	19.BeginYear	20.No	20.Yes-Previously	20.Yes-ThisYear	21.No	21.Yes	22.NA	22.<10	22.10-25%	22.25-50%	22.50-75%	22.75-100%	23.NA	23.0%	23.1-30%	23.30-60%	23.60-99%	23.100%	24.No	24.Yes-Reported	24.Yes-Proficiency	24.Yes-Verification	25.No	25.Yes-Reported	25.Yes-Proficiency	25.Yes-Verification	26.No	26.Yes	27.No	27.Yes	28.Discouraged	28.Accepted	28.No	29.Standard	29.Request	29.NoValue	29.OfValue	30.Never	30.Request	30.Rarely	30.Often	31.NotIndividualization	31.NoFinger	31.NoFrictionRidge	31.NotExemplar	31.NotUsed
+	Y	55		Y							Y	Government Contractor	Y			24			Y		12	Y					Y		Y			Y							Y			Y	Y				Y					Y	1998		Y		Y							Y						Y	Y				Y					Y	Y			Y				Y					Y				Y	
+	Y	37			Y				Y						Y	.	Y				6	Y	Y	Y			Y	Y	Y	Y	Y		Y						Y			Y		Y			Y					Y	2003			Y	Y							Y			Y				Y				Y					Y	Y				Y			Y		Y								Y
+Y		27				Y		Y							Y	.	Y				2.5	Y					Y		Y			Y							Y			Y	Y				Y					Y	2008	Y			Y					Y					Y				Y				Y					Y	Y				Y			Y					Y			Y		
+Y		58	Y					Y							Y	7			Y		29			Y	Y				Y				Y						Y			Y		Y			Y					Y	1980			Y	Y						Y			Y					Y				Y					Y	Y		Y					Y				Y						Y
+Y		39			Y			Y							Y	.	Y				13.5	Y	Y	Y			Y		Y				Y						Y			Y	Y				Y					Y	1994		Y		Y					Y							Y		Y				Y					Y	Y			Y				Y					Y			Y		
+	Y	48		Y					Y						Y	0	Y				1.5	Y	Y	Y			Y		Y									Y			Y				Y		Y			Y			.	Y				Y	Y						Y						Y				Y					Y		Y		Y					Y				Y			Y		
+Y		40				Y		Y							Y	0.5		Y			11		Y			Y			Y				Y						Y			Y				Y	Y					Y	1999		Y		Y					Y					Y				Y							Y		Y	Y			Y				Y					Y		Y			
+Y		33				Y		Y							Y	0		Y			7.5	Y					Y		Y			Y							Y			Y		Y			Y					Y	2003			Y	Y						Y				Y				Y				Y					Y	Y				Y			Y					Y					Y
+Y		27			Y				Y						Y	.	Y				5	Y					Y		Y									Y				Y				Y	Y					Y	2006			Y	Y						Y				Y				Y				Y					Y	Y			Y				Y					Y		Y			
+Y		33				Y				Y				Y		0	Y				4	Y	Y	Y			Y	Y	Y	Y	Y							Y			Y					Y	Y					Y	2007	Y			Y				Y					Y					Y				Y					Y	Y				Y			Y				Y						Y
+Y		43		Y						Y					Y	5		Y			11		Y	Y			Y		Y	Y			Y						Y			Y				Y	Y					Y	2000			Y	Y							Y			Y				Y							Y		Y	Y			Y					Y				Y			Y		
+	Y	58			Y					Y					Y	2				Y	38		Y	Y			Y	Y					Y						Y	Y						Y	Y					Y	1970			Y	Y							Y		Y					Y				Y					Y	Y				Y			Y					Y	Y				
+Y		45		Y						Y				Y		0	Y				8		Y	Y		Y			Y	Y			Y						Y			Y				Y	Y					Y	2001			Y	Y							Y			Y				Y							Y		Y	Y			Y		Y							Y		Y			
+	Y	61			Y				Y						Y	5		Y			30		Y	Y			Y	Y	Y		Y		Y						Y			Y				Y	Y					Y	1976			Y	Y							Y			Y				Y					Y		Y		Y	Y		Y			Y							Y			Y		
+	Y	62		Y							Y			Y		0		Y			40	Y	Y	Y	Y			Y	Y		Y		Y						Y	Y			Y				Y					Y	1969			Y	Y			Y									Y		Y				Y					Y		Y		Y					Y			Y				Y		
+Y		51			Y			Y							Y	6.5		Y			21	Y					Y		Y			Y							Y			Y			Y		Y				Y		1988		Y		Y				Y						Y				Y							Y		Y	Y				Y			Y					Y			Y		
+	Y	35				Y		Y							Y	0	Y				9	Y	Y	Y			Y		Y	Y		Y							Y			Y				Y	Y					Y	2002		Y		Y				Y						Y				Y				Y					Y	Y			Y				Y					Y			Y		
+	Y	49			Y					Y				Y		1		Y			20		Y	Y			Y	Y	Y		Y		Y	Y					Y			Y	Y				Y					Y	1987			Y	Y				Y						Y				Y					Y				Y	Y		Y						Y				Y				Y	
+Y		29				Y			Y						Y	0	Y				4.7	Y	Y	Y			Y		Y		Y							Y			Y				Y		Y					Y	2005			Y	Y					Y							Y		Y				Y					Y	Y			Y					Y				Y			Y		
+Y		33			Y			Y							Y	.		Y			10	Y					Y		Y			Y							Y			Y				Y	Y				Y		2000		Y		Y			Y							Y				Y					Y				Y	Y				Y		Y						Y				Y	
+	Y	51			Y			Y							Y	8			Y		25	Y	Y	Y			Y		Y				Y						Y			Y				Y	Y					Y	1985			Y	Y						Y						Y		Y							Y		Y	Y				Y			Y					Y					Y
+	Y	49			Y					Y					Y	3			Y		19		Y	Y			Y		Y				Y	Y	Y				Y			Y		Y					Y		Y		1990		Y		Y			Y										Y	Y				Y					Y	Y			Y		Y							Y			Y		
+	Y	64		Y				Y				USA		Y		43			Y		38	Y				Y			Y				Y						Y			Y				Y	Y					Y	1971			Y		Y						Y			Y				Y				Y				Y		Y				Y			Y					Y	Y				
+	Y	60		Y				Y							Y	0		Y			13		Y	Y			Y	Y					Y						Y			Y			Y		Y					Y	1986		Y		Y							Y				Y			Y				Y					Y	Y		Y					Y					Y			Y		
+	Y	49		Y					Y						Y	0		Y			25	Y	Y	Y			Y	Y	Y		Y	Y							Y			Y				Y	Y					Y	1986			Y	Y						Y				Y				Y				Y					Y	Y		Y			Y							Y			Y		
+Y		35				Y		Y							Y	0		Y			9	Y	Y	Y			Y		Y			Y							Y			Y				Y	Y					Y	2001			Y	Y				Y						Y				Y				Y					Y	Y			Y				Y					Y			Y		
+	Y	49		Y				Y							Y	2		Y			12	Y	Y	Y	Y			Y	Y	Y			Y						Y			Y				Y	Y					Y	1998		Y		Y					Y					Y				Y				Y					Y	Y				Y			Y					Y					Y
+Y		42			Y				Y						Y	0	Y				6	Y	Y	Y			Y	Y	Y									Y			Y				Y		Y					Y	2003			Y	Y						Y				Y				Y							Y		Y	Y			Y					Y				Y			Y		
+	Y	62		Y				Y							Y	5			Y		38	Y	Y	Y			Y		Y	Y	Y	Y	Y						Y			Y		Y			Y					Y	1972		Y		Y							Y				Y			Y							Y		Y	Y		Y					Y					Y	Y				
+Y		29				Y		Y							Y	0		Y			6	Y					Y		Y			Y	Y						Y			Y				Y	Y					Y	2004		Y		Y						Y							Y	Y					Y				Y	Y				Y			Y					Y					Y
+	Y	58		Y			Y							Y		7			Y		34	Y				Y			Y			Y					Y					Y				Y	Y					Y	1975		Y		Y							Y						Y	Y				Y				Y		Y		Y					Y			Y					Y		
+Y		30			Y			Y							Y	4	Y				2.5	Y					Y		Y			Y	Y						Y			Y				Y	Y					Y	2007		Y		Y				Y					Y					Y				Y					Y	Y				Y		Y						Y			Y		
+	Y	33				Y		Y							Y	0	Y				6	Y					Y		Y			Y							Y			Y				Y	Y					Y	2003			Y	Y						Y				Y				Y				Y					Y	Y				Y			Y					Y			Y		
+Y		52		Y						Y					Y	0		Y			22		Y	Y		Y		Y	Y		Y		Y						Y	Y					Y		Y					Y	1980			Y	Y							Y			Y				Y							Y	Y		Y			Y		Y							Y			Y		
+	Y	55		Y				Y						Y		1			Y		37	Y	Y	Y			Y		Y				Y						Y			Y				Y	Y					Y	1972		Y		Y						Y						Y		Y							Y		Y		Y		Y		Y							Y			Y		
+Y		35				Y		Y							Y	0	Y				3.5	Y	Y	Y			Y	Y	Y			Y							Y			Y				Y	Y					Y	2003			Y	Y					Y					Y				Y				Y					Y	Y		Y					Y					Y	Y				
+Y		29			Y			Y							Y	3			Y		3	Y					Y		Y									Y			Y			Y			Y					Y	2006	Y			Y						Y						Y		Y							Y		Y	Y				Y			Y					Y					Y
+	Y	39			Y				Y						Y	0	Y				3	Y					Y		Y		Y	Y							Y			Y	Y				Y					Y	2008			Y	Y					Y						Y			Y							Y	Y		Y			Y		Y							Y			Y		
+Y		40			Y			Y							Y	0	Y				15		Y	Y			Y	Y	Y	Y			Y						Y			Y		Y			Y					Y	1994			Y	Y					Y								Y	Y					Y				Y	Y			Y					Y				Y					Y
+Y		34			Y					Y					Y	4		Y			7		Y	Y	Y				Y				Y						Y			Y				Y	Y					Y	2002			Y	Y							Y			Y							Y				Y		Y		Y		Y		Y							Y			Y		
+	Y	35			Y			Y							Y	.	Y				4.5	Y	Y	Y			Y		Y			Y							Y			Y		Y			Y					Y	2006		Y		Y					Y					Y				Y							Y		Y	Y				Y		Y						Y			Y		
+Y		36			Y				Y						Y	0	Y				5.5	Y	Y	Y		Y			Y									Y			Y				Y		Y					Y	2004		Y		Y							Y				Y			Y				Y				Y		Y			Y		Y							Y			Y		
+	Y	54	Y					Y							Y	20		Y			13	Y					Y		Y			Y							Y			Y			Y		Y					Y	1998		Y		Y							Y			Y				Y				Y				Y		Y			Y				Y					Y	Y				
+Y		35			Y			Y							Y	0	Y				11	Y	Y	Y			Y		Y			Y							Y			Y				Y	Y				Y		.		Y		Y			Y							Y				Y				Y					Y	Y				Y		Y						Y			Y		
+Y		51			Y				Y					Y		0	Y				25		Y	Y			Y		Y									Y			Y			Y			Y					Y	1986			Y	Y							Y				Y			Y				Y					Y		Y		Y					Y				Y			Y		
+Y		34			Y			Y							Y	1.5		Y			7	Y					Y		Y			Y							Y			Y				Y	Y					Y	2003			Y	Y				Y						Y				Y							Y		Y	Y			Y			Y						Y			Y		
+Y		37			Y				Y						Y	0	Y				7	Y	Y	Y		Y			Y				Y						Y			Y				Y	Y					Y	2003			Y	Y						Y					Y			Y							Y	Y		Y			Y		Y							Y			Y		
+	Y	70		Y				Y							Y	10			Y		29	Y	Y	Y			Y		Y			Y	Y						Y			Y			Y		Y					Y	1968		Y		Y					Y							Y		Y							Y		Y	Y				Y			Y					Y				Y	
+	Y	56		Y					Y						Y	5			Y		29		Y				Y		Y				Y						Y			Y				Y	Y					Y	1980			Y	Y							Y		Y					Y				Y					Y	Y			Y				Y					Y			Y		
+	Y	61		Y				Y							Y	0	Y				29	Y	Y	Y			Y	Y					Y						Y			Y			Y		Y					Y	1975			Y	Y					Y				Y					Y				Y					Y	Y			Y				Y					Y					Y
+	Y	43			Y		Y							Y		11		Y			11	Y	Y	Y			Y	Y	Y		Y		Y		Y				Y			Y	Y				Y				Y		1997	Y			Y				Y						Y				Y				Y					Y	Y			Y				Y					Y					Y
+	Y	54		Y				Y							Y	8			Y		24	Y					Y		Y			Y							Y			Y				Y	Y				Y		1985		Y		Y			Y								Y			Y				Y					Y	Y				Y		Y						Y			Y		
+	Y	48			Y					Y					Y	0	Y				16	Y					Y		Y			Y	Y						Y			Y			Y		Y					Y	1993			Y	Y						Y				Y				Y					Y				Y	Y			Y				Y					Y					Y
+	Y	40			Y					Y					Y	0	Y				16	Y	Y	Y			Y		Y		Y		Y						Y			Y		Y			Y					Y	1994			Y	Y						Y						Y		Y							Y		Y	Y		Y					Y					Y			Y		
+	Y	46			Y			Y							Y	25		Y			25	Y	Y	Y			Y	Y	Y				Y						Y			Y				Y	Y					Y	1984			Y	Y							Y					Y		Y				Y					Y	Y		Y					Y					Y			Y		
+Y		38				Y		Y							Y	0	Y				8	Y	Y	Y			Y		Y			Y	Y						Y			Y				Y	Y					Y	2002		Y		Y							Y					Y		Y				Y					Y	Y			Y				Y					Y			Y		
+	Y	51	Y					Y							Y	9			Y		24	Y	Y				Y		Y			Y							Y	Y						Y	Y				Y		1985		Y		Y			Y									Y		Y					Y				Y	Y				Y			Y					Y			Y		
+Y		27				Y		Y				3			Y	0	Y				3	Y					Y		Y			Y							Y			Y			Y		Y					Y	2			Y	Y					Y				Y					Y							Y		Y	Y				Y			Y					Y			Y		
+	Y	35				Y		Y							Y	.	Y				10	Y	Y	Y			Y		Y			Y							Y			Y				Y	Y					Y	2000		Y		Y						Y				Y				Y				Y					Y	Y			Y			Y						Y			Y		
+	Y	34			Y					Y					Y	0	Y				8		Y	Y			Y	Y	Y				Y						Y			Y				Y	Y					Y	2001			Y	Y							Y		Y					Y				Y					Y	Y		Y					Y					Y			Y		
+	Y	63		Y					Y						Y	3		Y			33		Y	Y			Y		Y				Y						Y			Y				Y	Y					Y	1977			Y	Y						Y				Y				Y				Y					Y	Y				Y		Y						Y					Y
+Y		26			Y				Y						Y	.	Y				0.25	Y	Y	Y			Y	Y	Y		Y							Y			Y			Y			Y					Y	2009	Y			Y						Y					Y			Y				Y					Y	Y			Y		Y						Y				Y		
+	Y	43			Y					Y					Y	.		Y			12	Y					Y	Y	Y	Y			Y						Y			Y				Y	Y					Y	1997			Y	Y			Y							Y				Y				Y				Y		Y			Y					Y				Y			Y		
+	Y	55		Y							Y			Y		0		Y			30			Y		Y		Y					Y						Y			Y				Y	Y					Y	1979			Y	Y						Y							Y	Y				Y					Y	Y			Y		Y						Y					Y	
+	Y	57			Y					Y				Y		20		Y			15			Y	Y						Y							Y			Y		Y				Y					Y	1994			Y	Y							Y		Y								Y	Y					Y	Y			Y				Y				Y				Y		
+Y		28			Y					Y					Y	0	Y				3	Y	Y				Y		Y									Y			Y			Y			Y					Y	2007			Y	Y							Y			Y				Y				Y					Y	Y				Y			Y					Y					Y
+	Y	51			Y					Y				Y		3		Y			20		Y	Y			Y	Y	Y		Y		Y						Y			Y				Y		Y				Y	1991			Y	Y					Y					Y				Y				Y					Y	Y		Y			Y						Y					Y	
+	Y	55		Y				Y							Y	6		Y			16			Y		Y			Y				Y						Y			Y				Y	Y					Y	1993			Y	Y							Y			Y				Y				Y					Y	Y			Y				Y		Y								Y
+Y		27			Y			Y							Y	0	Y				1.5	Y					Y		Y			Y							Y			Y	Y				Y					Y	2008	Y			Y						Y				Y				Y				Y					Y	Y				Y			Y					Y			Y		
+	Y	54			Y					Y					Y	8.5		Y			23	Y					Y		Y				Y						Y			Y				Y	Y					Y	1988		Y		Y							Y			Y				Y				Y					Y	Y				Y			Y		Y								Y
+Y		35				Y		Y							Y	0	Y				10	Y					Y		Y			Y	Y						Y			Y				Y	Y					Y	2000			Y	Y						Y				Y				Y				Y					Y	Y				Y			Y					Y				Y	
+Y		29			Y					Y					Y	2		Y			3		Y	Y		Y		Y	Y		Y		Y						Y			Y				Y	Y					Y	2006			Y	Y							Y			Y				Y				Y					Y	Y				Y			Y		Y								Y
+Y		46			Y				Y						Y	.	Y				8	Y	Y	Y			Y	Y	Y		Y		Y						Y			Y		Y			Y					Y	2000			Y	Y						Y				Y				Y							Y		Y	Y			Y		Y						Y						Y
+	Y	41			Y					Y					Y	3		Y			21	Y	Y	Y			Y		Y		Y		Y						Y			Y				Y	Y				Y		1989			Y	Y				Y						Y				Y				Y					Y	Y			Y					Y				Y			Y		
+Y		54			Y			Y							Y	0	Y				22		Y	Y		Y		Y					Y						Y			Y		Y			Y					Y	1988			Y	Y				Y									Y	Y					Y		Y		Y	Y		Y						Y				Y					Y
+	Y	35				Y			Y						Y	0		Y			5	Y					Y		Y			Y	Y						Y			Y				Y		Y				Y	2004		Y		Y				Y						Y				Y				Y					Y	Y			Y				Y					Y					Y
+	Y	57		Y				Y							Y	0	Y				20	Y					Y		Y		Y		Y						Y			Y				Y	Y					Y	1983		Y		Y				Y					Y					Y				Y					Y	Y			Y				Y					Y				Y	
+Y		35			Y			Y							Y	2		Y			7	Y	Y	Y			Y		Y	Y	Y		Y						Y			Y			Y		Y					Y	2002			Y	Y						Y				Y				Y				Y					Y	Y			Y				Y					Y					Y
+Y		38				Y					Y			Y		0		Y			13		Y				Y		Y			Y	Y						Y			Y	Y				Y				Y		1997		Y		Y			Y									Y			Y			Y					Y	Y		Y			Y							Y					Y
+	Y	.			Y			Y							Y	.	Y				.	Y					Y		Y	Y	Y	Y							Y			Y				Y	Y					Y	.		Y		Y				Y							Y												Y	Y			Y				Y					Y			Y		
+	Y	31			Y				Y						Y	0	Y				2.5	Y	Y	Y			Y		Y		Y	Y							Y			Y	Y				Y					Y	2007			Y	Y					Y						Y			Y				Y				Y		Y		Y			Y							Y		Y			
+	Y	62			Y						Y			Y		0			Y		36	Y	Y	Y			Y	Y	Y	Y	Y	Y	Y						Y			Y	Y				Y				Y		1973		Y		Y				Y					Y					Y				Y					Y	Y				Y	Y							Y	Y				
+Y		35				Y		Y							Y	.	Y				10.5	Y					Y		Y			Y	Y						Y			Y		Y			Y					Y	2000			Y	Y						Y					Y			Y				Y					Y	Y			Y				Y					Y			Y		
+Y		29				Y		Y							Y	0		Y			2.5	Y					Y	Y	Y		Y	Y							Y			Y	Y				Y					Y	2006			Y	Y						Y				Y				Y							Y		Y	Y			Y			Y						Y		Y			
+	Y	31			Y				Y						Y	0	Y				9	Y	Y	Y			Y		Y		Y		Y						Y			Y				Y	Y					Y	2001			Y	Y							Y					Y		Y						Y			Y	Y			Y					Y				Y			Y		
+	Y	36				Y		Y							Y	0	Y				5.5	Y					Y		Y			Y							Y			Y				Y	Y					Y	2005			Y	Y				Y						Y				Y				Y					Y	Y			Y				Y					Y			Y		
+	Y	32			Y				Y						Y	0	Y				2	Y					Y		Y									Y			Y		Y					Y				Y	2007			Y		Y				Y				Y					Y				Y					Y	Y			Y		Y							Y			Y		
+	Y	56			Y				Y						Y	0		Y			25			Y			Y		Y				Y						Y			Y		Y			Y					Y	1984			Y		Y				Y					Y				Y				Y				Y		Y			Y					Y			Y				Y		
+Y		.				Y		Y							Y	0		Y			4.5	Y					Y		Y			Y							Y			Y				Y	Y					Y	2007		Y		Y					Y					Y				Y							Y		Y	Y		Y					Y					Y				Y	
+	Y	59		Y							Y				Y	5			Y		25	Y	Y	Y			Y		Y			Y	Y						Y			Y				Y	Y				Y		1975			Y	Y					Y					Y				Y							Y		Y	Y		Y			Y							Y					Y
+	Y	52		Y						Y				Y		13			Y		12			Y		Y		Y				Y							Y			Y	Y				Y					Y	.		Y		Y				Y					Y					Y				Y					Y	Y			Y				Y					Y			Y		
+Y		31				Y		Y							Y	0	Y				6	Y	Y				Y		Y			Y							Y			Y				Y	Y				Y		2005			Y	Y				Y						Y				Y				Y					Y	Y				Y		Y						Y			Y		
+Y		47		Y					Y						Y	5			Y		10	Y	Y	Y			Y		Y			Y							Y			Y		Y			Y					Y	1999			Y	Y							Y			Y				Y				Y					Y		Y		Y		Y							Y			Y		
+Y		50				Y			Y						Y	0	Y				10	Y	Y	Y			Y		Y	Y	Y		Y						Y			Y		Y			Y					Y	2000			Y	Y							Y					Y		Y				Y					Y	Y				Y			Y					Y					Y
+Y		34				Y		Y							Y	.	Y				5	Y					Y		Y			Y							Y			Y				Y	Y					Y	2006			Y	Y				Y					Y					Y				Y					Y	Y				Y			Y					Y			Y		
+	Y	39		Y							Y			Y		0	Y				4		Y	Y			Y	Y	Y	Y	Y		Y						Y			Y	Y				Y					Y	2005			Y	Y							Y					Y		Y				Y					Y	Y		Y			Y					Y					Y		
+	Y	25			Y			Y							Y	3	Y				3	Y					Y		Y			Y							Y			Y			Y		Y					Y	2009	Y			Y					Y								Y	Y				Y					Y	Y				Y			Y					Y				Y	
+Y		30			Y			Y							Y	0	Y				4	Y					Y		Y			Y							Y			Y				Y	Y					Y	2007			Y	Y						Y					Y			Y				Y					Y	Y				Y		Y						Y			Y		
+	Y	25			Y			Y				FBI			Y	0	Y				3	Y	Y	Y			Y	Y	Y		Y	Y							Y			Y	Y				Y					Y	2008	Y			Y				Y							Y			Y				Y					Y	Y				Y			Y					Y			Y		
+	Y	38				Y		Y							Y	0	Y				8	Y					Y		Y			Y							Y			Y				Y	Y					Y	2003		Y		Y				Y						Y				Y					Y				Y	Y			Y				Y					Y			Y		
+	Y	33				Y		Y							Y	.	Y				6	Y					Y		Y			Y							Y			Y				Y	Y				Y		2005		Y		Y			Y								Y			Y					Y				Y	Y			Y			Y						Y				Y	
+	Y	27			Y			Y							Y	0	Y				2	Y					Y		Y									Y			Y				Y		Y					Y	2007	Y				Y						Y			Y				Y				Y					Y	Y				Y			Y					Y				Y	
+	Y	30				Y		Y							Y	0	Y				4.5	Y					Y		Y			Y							Y			Y			Y		Y					Y	2007			Y	Y						Y					Y			Y							Y		Y	Y				Y			Y					Y			Y		
+	Y	57	Y					Y							Y	12			Y		21	Y					Y		Y			Y							Y			Y				Y	Y					Y	1988		Y		Y					Y						Y			Y				Y					Y	Y				Y			Y					Y		Y			
+	Y	37				Y		Y							Y	.	Y				4.5	Y	Y	Y			Y		Y			Y							Y			Y				Y	Y					Y	2006	Y			Y							Y			Y				Y							Y		Y	Y				Y			Y					Y			Y		
+	Y	42	Y					Y							Y	7			Y		13	Y	Y	Y			Y		Y			Y							Y			Y				Y	Y					Y	1999		Y		Y						Y				Y							Y				Y		Y	Y			Y				Y					Y			Y		
+Y		28				Y		Y							Y	.	Y				4.5	Y					Y		Y			Y							Y			Y				Y	Y					Y	2006			Y	Y					Y					Y				Y				Y					Y	Y			Y				Y					Y			Y		
+	Y	60			Y			Y							Y	0		Y			31	Y					Y		Y				Y						Y			Y			Y		Y				Y		1978			Y	Y			Y							Y				Y				Y					Y	Y				Y			Y					Y					Y
+Y		40			Y				Y						Y	0	Y				1	Y					Y	Y	Y		Y							Y			Y		Y				Y					Y	2008	Y			Y					Y							Y		Y				Y					Y	Y			Y					Y			Y			Y			
+Y		45		Y						Y			Y			3		Y			18	Y	Y	Y			Y	Y	Y	Y			Y						Y			Y				Y	Y					Y	1991			Y	Y					Y						Y			Y							Y		Y	Y		Y					Y				Y						Y
+Y		48			Y				Y						Y	0	Y				7	Y	Y			Y			Y									Y			Y					Y	Y					Y	2003			Y	Y						Y					Y			Y				Y					Y	Y		Y			Y						Y					Y	
+Y		25			Y					Y					Y	0	Y				2.5	Y	Y	Y			Y	Y	Y									Y			Y			Y			Y					Y	2007			Y	Y							Y					Y		Y							Y		Y	Y				Y			Y		Y								Y
+Y		34			Y					Y					Y	0	Y				3	Y					Y		Y									Y				Y			Y		Y					Y	2009			Y	Y						Y				Y				Y				Y				Y		Y			Y					Y				Y			Y		
+Y		34			Y				Y						Y	0	Y				4	Y					Y		Y			Y							Y			Y		Y			Y					Y	2005		Y		Y							Y		Y					Y				Y					Y	Y			Y		Y							Y		Y			
+	Y	38			Y					Y				Y		10				Y	10		Y	Y			Y		Y				Y						Y			Y	Y				Y					Y	2001			Y	Y					Y					Y				Y				Y					Y	Y		Y			Y							Y			Y		
+	Y	49			Y			Y							Y	22		Y			22			Y	Y			Y					Y						Y			Y				Y	Y					Y	1987			Y	Y							Y						Y	Y							Y		Y	Y		Y					Y					Y				Y	
+	Y	58			Y				Y						Y	3		Y			16		Y	Y		Y			Y	Y		Y	Y		Y				Y			Y		Y			Y					Y	1993			Y	Y						Y					Y			Y				Y					Y	Y		Y			Y							Y			Y		
+Y		29				Y			Y						Y	.	Y				2	Y	Y	Y		Y			Y									Y				Y				Y	Y					Y	2008			Y	Y							Y					Y		Y				Y					Y	Y			Y		Y					Y					Y		
+Y		31				Y		Y							Y	5				Y	5	Y					Y		Y			Y							Y			Y				Y	Y					Y	2005			Y	Y				Y						Y				Y				Y					Y	Y			Y				Y					Y					Y
+	Y	43	Y						Y						Y	11				Y	18	Y					Y		Y			Y				Y			Y			Y		Y			Y					Y	1991		Y		Y							Y			Y				Y							Y		Y	Y			Y		Y							Y			Y		
+	Y	35			Y			Y							Y	0				Y	9	Y					Y		Y			Y							Y			Y				Y	Y					Y	2000		Y		Y			Y							Y				Y				Y					Y	Y				Y		Y						Y				Y	
+	Y	32			Y						Y			Y		3		Y			10	Y	Y	Y	Y				Y				Y						Y			Y	Y				Y				Y		2000		Y		Y				Y								Y		Y				Y					Y	Y			Y					Y		Y						Y	
+	Y	52			Y				Y						Y	0	Y				17		Y	Y			Y	Y	Y		Y	Y	Y						Y			Y		Y			Y					Y	1992			Y	Y				Y						Y				Y							Y		Y	Y			Y				Y				Y						Y
+Y		32				Y				Y					Y	0	Y				8.5	Y					Y		Y				Y						Y			Y				Y	Y					Y	2002			Y	Y							Y			Y				Y				Y					Y	Y		Y					Y					Y			Y		
+Y		54		Y						Y				Y		5		Y			24		Y		Y				Y				Y						Y			Y	Y				Y					Y	1986			Y	Y						Y				Y						Y					Y		Y	Y				Y			Y					Y					Y
+Y		29				Y		Y							Y	0	Y				4.7	Y	Y				Y		Y		Y	Y	Y						Y			Y		Y			Y					Y	2007	Y				Y					Y						Y		Y				Y					Y	Y				Y			Y					Y					Y
+	Y	35			Y			Y							Y	2		Y			7	Y	Y	Y			Y		Y				Y						Y			Y		Y			Y					Y	2003			Y	Y							Y					Y		Y							Y		Y	Y				Y			Y					Y					Y
+	Y	41		Y					Y						Y	0	Y				4			Y		Y			Y		Y							Y			Y					Y	Y					Y	2005			Y	Y							Y					Y					Y			Y	Y		Y	Y		Y					Y					Y		Y			
+Y		.				Y		Y							Y	.	Y				.						Y												Y			Y			Y		Y					Y	.		Y		Y				Y						Y													Y	Y			Y				Y					Y			Y		
+	Y	34			Y					Y				Y		0		Y			9		Y	Y			Y	Y	Y		Y		Y						Y			Y				Y	Y					Y	2001			Y	Y						Y				Y				Y				Y					Y	Y			Y			Y						Y			Y		
+Y		25			Y				Y						Y	0	Y				3	Y					Y		Y									Y			Y					Y	Y					Y	2008	Y			Y					Y							Y		Y				Y				Y		Y			Y					Y			Y				Y		
+Y		31			Y			Y							Y	0	Y				4.5	Y					Y		Y			Y	Y						Y			Y				Y	Y					Y	2005	Y			Y					Y					Y				Y							Y		Y	Y				Y		Y						Y			Y		
+Y		54		Y						Y				Y		0	Y				15		Y	Y			Y	Y	Y		Y		Y						Y			Y	Y				Y					Y	1995			Y	Y							Y				Y			Y							Y		Y	Y			Y				Y					Y					Y
+	Y	52		Y				Y							Y	7			Y		24	Y				Y			Y			Y							Y			Y				Y	Y				Y		1985		Y		Y			Y									Y		Y				Y					Y	Y			Y				Y				Y					Y	
+Y		37			Y					Y					Y	.	Y				4	Y	Y	Y			Y		Y									Y			Y			Y			Y					Y	2006			Y	Y							Y			Y								Y					Y	Y			Y					Y				Y			Y		
+	Y	54	Y					Y				na			Y	23			Y		13	Y					Y		Y			Y							Y			Y				Y	Y					Y	1998			Y	Y						Y					Y			Y				Y					Y	Y				Y			Y					Y			Y		
+	Y	55			Y						Y			Y		3		Y			34		Y				Y		Y				Y						Y			Y				Y	Y					Y	1975			Y	Y			Y							Y				Y				Y					Y	Y			Y					Y				Y			Y		
+	Y	39			Y			Y							Y	5				Y	3	Y					Y		Y		Y	Y							Y			Y				Y	Y					Y	2006			Y	Y				Y						Y				Y							Y		Y	Y				Y			Y					Y		Y			
+Y		30			Y			Y							Y	0	Y				4	Y					Y		Y			Y							Y			Y				Y	Y					Y	2006			Y	Y							Y			Y				Y							Y		Y	Y		Y					Y					Y			Y		
+	Y	63		Y							Y			Y		0		Y			44	Y	Y	Y			Y	Y	Y		Y		Y						Y	Y			Y				Y				Y		1965		Y		Y			Y							Y				Y				Y					Y	Y		Y					Y					Y					Y
+Y		36				Y		Y							Y	0	Y				9	Y	Y				Y		Y			Y							Y			Y				Y	Y					Y	2001		Y		Y				Y						Y				Y				Y					Y	Y			Y			Y						Y		Y			
+Y		26			Y			Y							Y	0	Y				4	Y	Y	Y			Y		Y	Y		Y							Y			Y				Y	Y					Y	2006			Y	Y						Y				Y				Y							Y		Y	Y			Y			Y						Y			Y		
+	Y	24			Y			Y							Y	0	Y				1	Y	Y	Y			Y	Y	Y		Y							Y			Y		Y				Y					Y	2009	Y				Y					Y					Y			Y				Y					Y	Y				Y			Y					Y			Y		
+Y		33			Y			Y							Y	0		Y			10	Y					Y		Y			Y							Y			Y				Y	Y					Y	1999		Y		Y							Y				Y			Y						Y			Y	Y		Y					Y					Y			Y		
+Y		34				Y		Y							Y	0	Y				4.5	Y					Y		Y	Y		Y							Y			Y				Y	Y					Y	2006	Y			Y					Y					Y				Y				Y					Y	Y			Y				Y					Y		Y			
+Y		34			Y					Y					Y	4				Y	5		Y	Y			Y	Y	Y	Y	Y							Y				Y				Y	Y				Y		2004			Y	Y							Y				Y			Y				Y					Y	Y			Y				Y					Y				Y	
+	Y	47			Y					Y				Y		0	Y				12	Y	Y	Y		Y		Y	Y	Y	Y		Y						Y			Y				Y	Y					Y	1998			Y	Y							Y		Y					Y							Y		Y	Y		Y						Y				Y		Y			
+	Y	42			Y				Y						Y	0	Y				16	Y	Y	Y		Y			Y				Y						Y			Y				Y	Y				Y		1994		Y		Y			Y								Y			Y				Y					Y	Y			Y					Y				Y			Y		
+	Y	37			Y					Y					Y	0	Y				9.5			Y			Y	Y	Y		Y							Y			Y			Y			Y					Y	1997			Y	Y							Y			Y				Y				Y					Y		Y		Y				Y					Y			Y		
+Y		52			Y				Y						Y	30			Y		27	Y					Y		Y				Y						Y			Y		Y			Y					Y	1981			Y	Y					Y					Y				Y						Y			Y	Y		Y				Y						Y					Y
+Y		33				Y			Y						Y	0	Y				6	Y					Y		Y		Y		Y						Y			Y				Y	Y					Y	2004		Y		Y				Y								Y		Y				Y					Y	Y			Y			Y					Y			Y			
+	Y	59		Y					Y						Y	5		Y			30		Y	Y			Y		Y				Y						Y			Y			Y		Y					Y	1980			Y	Y						Y				Y				Y							Y		Y	Y			Y					Y				Y			Y		
+Y		57			Y					Y					Y	1		Y			33		Y	Y		Y			Y	Y			Y						Y			Y				Y	Y					Y	1976			Y	Y						Y			Y					Y							Y		Y	Y				Y			Y					Y	Y				
+Y		31				Y		Y							Y	0	Y				5.5	Y	Y	Y			Y		Y			Y							Y			Y				Y	Y					Y	2005			Y	Y							Y			Y				Y				Y					Y	Y		Y				Y						Y			Y		
+Y		30				Y			Y						Y	0	Y				6		Y	Y		Y			Y									Y			Y					Y	Y					Y	2003			Y	Y						Y				Y				Y				Y				Y		Y			Y					Y				Y		Y			
+	Y	52		Y				Y							Y	.			Y		25	Y					Y		Y				Y						Y			Y		Y			Y					Y	1986			Y	Y							Y		Y					Y				Y					Y	Y				Y			Y					Y					Y
+Y		34				Y		Y							Y	1		Y			10	Y	Y	Y			Y		Y	Y		Y							Y			Y				Y		Y				Y	2000			Y	Y				Y						Y				Y				Y					Y	Y			Y			Y						Y			Y		
+Y		25			Y					Y					Y	0	Y				2	Y					Y		Y									Y			Y				Y		Y					Y	2008	Y			Y							Y				Y			Y				Y					Y	Y				Y			Y					Y		Y			
+Y		51		Y							Y		Y			3		Y			28		Y	Y			Y		Y				Y						Y			Y		Y					Y		Y		1983			Y	Y						Y					Y			Y				Y					Y	Y				Y			Y					Y					Y

@@ -1,0 +1,108 @@
+---
+title: "rstanarm"
+description: |
+  rstanarm is a model-fitting R package that uses pre-compiled Stan programs  for the back-end estimation.
+---
+
+
+```{r, echo=FALSE}
+library(graphics)
+library(bookdown)
+library(knitr)
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(rstan)
+options(mc.cores = parallel::detectCores())
+rstan_options(auto_write = TRUE)
+library(rstanarm)
+library(ggmcmc)
+library(ggthemes)
+library(tidybayes)
+library(RColorBrewer)
+library(viridis)
+library(bayesplot)
+wbstudy_determinations <- read_excel("WhiteBox_PublicDataRelease.xlsx", 
+	sheet ="WhiteBox_Determinations")
+wbstudy_determinations <- wbstudy_determinations %>% clean_names() 
+#construct new tibble with information on item, examiner, mating, determination 
+#and whether determination was correct
+wbstudy_accuracy <- wbstudy_determinations %>% 
+  group_by(mating, comparison_determination) %>%
+	filter(comparison_determination != "None") %>%
+	mutate(correct = ifelse((mating == "Mates" & comparison_determination == "ID")
+	 | (mating == "Non-mates" & comparison_determination == "Exclusion"),
+	 1, 0)) %>%
+	 select(c(examiner_anon, pair_id, mating, comparison_determination,
+	          correct, difficulty, corresp_minutiae)) %>%
+	 separate(examiner_anon, 
+	          into = c("examiner_type", "examiner_id"), sep = 2) %>%
+	 select(-examiner_type)
+
+#fit model using rstanarm
+n_prior <- normal(location = 0, scale = 5)
+t.start <- Sys.time()
+fit_wb_determinations_rstanarm <- 
+  stan_glmer(correct ~ -1 + (1 | pair_id) + (1 | examiner_id), 
+  data = wbstudy_accuracy, family = "binomial",
+  warmup = 1000, iter = 2000,
+  cores = 2, chains = 4,
+	prior = n_prior, prior_intercept = n_prior, seed = 12345)
+fit_wb_determinations_rstanarm
+Sys.time() - t.start
+
+#get dataframe of coefficients for rstanarm
+pair_id_coeffs_rstanarm <- fit_wb_determinations_rstanarm$coefficients[1:315]
+pair_id_coeffs_rstanarm <- 
+  as_tibble(data.frame(as.list(pair_id_coeffs_rstanarm)))
+pair_id_coeffs_rstanarm <- pair_id_coeffs_rstanarm %>% 
+  gather(key = "pair_id", value = "coeffs", 1:315) %>%
+  separate(pair_id, into = c("intercept", "pair_id"), sep = 22) %>%
+  select(-intercept) %>%
+  separate(pair_id, into = c("pair_id", "period"), sep = 7) %>%
+  select(-period)
+
+examiner_id_coeffs_rstanarm <- 
+  fit_wb_determinations_rstanarm$coefficients[316:485]
+examiner_id_coeffs_rstanarm <- 
+  as_tibble(data.frame(as.list(examiner_id_coeffs_rstanarm)))
+examiner_id_coeffs_rstanarm <- examiner_id_coeffs_rstanarm %>% 
+  gather(key = "examiner_id", value = "coeffs", 1:170) %>%
+  separate(examiner_id, into = c("intercept", "examiner_id"), sep = 26) %>%
+  select(-intercept) %>%
+  separate(examiner_id, into = c("examiner_id", "period"), sep = 4) %>%
+  select(-period) %>% 
+  mutate(examiner_id = as.integer(examiner_id))
+
+#get 95% CI for coefficients
+ci95_pair_id <- 
+  posterior_interval(fit_wb_determinations_rstanarm, prob = 0.95)[1:315,]
+ci95_pair_id <- as_tibble(data.frame(ci95_pair_id))
+pair_id_coeffs_rstanarm <- 
+  pair_id_coeffs_rstanarm %>% bind_cols(ci95_pair_id)
+
+
+ci95_examiner_id <-
+  posterior_interval(fit_wb_determinations_rstanarm, prob = 0.95)[316:485,]
+ci95_examiner_id <- as_tibble(data.frame(ci95_examiner_id))
+examiner_id_coeffs_rstanarm <- 
+  examiner_id_coeffs_rstanarm %>% bind_cols(ci95_examiner_id)
+```
+
+```{r, echo = FALSE}
+#plot of percent correct vs coefficient for pair_id for rstanarm
+wbstudy_accuracy %>% group_by(pair_id) %>% 
+  summarise(totcorrect = sum(correct), n = n()) %>% 
+  mutate(percent_correct = totcorrect / n) %>% 
+  full_join(pair_id_coeffs_rstanarm) %>% 
+  ggplot(aes(x = percent_correct, y = coeffs, color = percent_correct)) + 
+  geom_point() +
+  theme_dark() +
+  scale_color_viridis(option = "G", direction = -1, name = "Percent Correct") +
+  labs(title = "Percent Correct vs Item Coefficient for rstanarm", 
+       x = "Percent Correct", y = "Item Coefficient") +
+  theme(legend.position = "bottom")
+```
+
+
+

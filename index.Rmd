@@ -1,0 +1,53 @@
+---
+title: "R Packages for Bayesian Multilevel Modeling"
+description: |
+  Learn more about R packages that implement Bayesian multilevel models. These packages implement models using the probabilistic programming language Stan. These models are fitted to the FBI's "White Box" study which measures what latent fingerprint examiners believe is sufficient information for individualization determinations.
+  
+site: distill::distill_website
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(rstan)
+options(mc.cores = parallel::detectCores())
+rstan_options(auto_write = TRUE)
+library(rstanarm)
+library(lme4)
+library(brms)
+library(ggmcmc)
+library(ggthemes)
+library(tidybayes)
+library(RColorBrewer)
+library(viridis)
+library(bayesplot)
+wbstudy_determinations <- read_excel("WhiteBox_PublicDataRelease.xlsx", 
+	sheet ="WhiteBox_Determinations")
+wbstudy_determinations <- wbstudy_determinations %>% clean_names() 
+```
+
+
+```{r, include=TRUE}
+#plot of difficulty vs correct	
+diffcorrect <- wbstudy_determinations %>% 
+  group_by(mating, comparison_determination) %>%
+	filter(comparison_determination != "None") %>%
+	mutate(correct = ifelse((mating == "Mates" & comparison_determination == "ID")
+	 | (mating == "Non-mates" & comparison_determination == "Exclusion"), 
+	 TRUE, FALSE)) %>%
+	 select(c(examiner_anon, pair_id, mating, comparison_determination, 
+	          correct, difficulty)) %>%
+	 separate(examiner_anon, 
+	          into = c("examiner_type", "examiner_id"), sep = 2) %>%
+	 select(-examiner_type) %>%
+	 mutate(difficulty = fct_relevel(difficulty, "VERYEASY", "EASY", "MODERATE", "DIFFICULT", "VERYDIFFICULT"))
+
+ggplot(diffcorrect) + geom_bar(mapping = aes(x = difficulty, fill = correct),   position = "fill") +
+	theme_fivethirtyeight() +
+	scale_fill_brewer(name = "Answer", labels = c("Incorrect", "Correct"), 
+	                  palette = "Paired") +
+	labs(title = "Number of Correct Determinations by Difficulty") 
+```

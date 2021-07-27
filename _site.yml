@@ -1,0 +1,21 @@
+---
+name: ""
+title: "R Website"
+theme: theme.css
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "White Box Study"
+      href: wbs.html
+    - text: "brms"
+      href: brmsweb.html
+    - text: "rstanarm"
+      href: rstanarmweb.html
+    - text: "About Me"
+      href: about.html
+    - icon: fab fa-github
+      href: https://github.com/horaceshew/2021SummerResearchShew
+  search: true
+output: distill::distill_article
+---
