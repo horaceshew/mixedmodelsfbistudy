@@ -9,8 +9,59 @@ description: |
 library(graphics)
 library(bookdown)
 library(knitr)
+library(graphics)
+library(bookdown)
+library(knitr)
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(brms)
+library(ggmcmc)
+library(ggthemes)
+library(tidybayes)
+library(RColorBrewer)
+library(viridis)
+library(bayesplot)
+wbstudy_determinations <- read_excel("WhiteBox_PublicDataRelease.xlsx", 
+	sheet ="WhiteBox_Determinations")
+wbstudy_determinations <- wbstudy_determinations %>% clean_names() 
 
+```
 
+```{r, echo = FALSE}
+wbstudy_accuracy <- wbstudy_determinations %>% 
+  group_by(mating, comparison_determination) %>%
+	filter(comparison_determination != "None") %>%
+	mutate(correct = ifelse((mating == "Mates" & comparison_determination == "ID")
+	 | (mating == "Non-mates" & comparison_determination == "Exclusion"),
+	 1, 0)) %>%
+	 select(c(examiner_anon, pair_id, mating, comparison_determination,
+	          correct, difficulty, corresp_minutiae)) %>%
+  rename(examiner_id = examiner_anon) %>%
+  mutate(examiner_int = as.integer(as.factor(examiner_id))) %>%
+  mutate(pair_int = as.integer(as.factor(pair_id)))
+
+#BRMS
+#fitting a Rasch model using brms
+#set up model formula
+formula_wb_determinations <- 
+  bf(correct ~ -1 + (1 | pair_id) + (1 | examiner_id))
+#define prior for parameters
+prior_wb_determinations <- prior("normal(0,5)", 
+                                 class = "sd", group = "examiner_id") +
+	prior("normal(0,5)", class = "sd", group = "pair_id")
+t.start <- Sys.time()
+#fit model
+fit_wb_determinations_brms <- brm(formula = formula_wb_determinations,
+	data = wbstudy_accuracy,
+	family = brmsfamily("bernoulli", "logit"),
+	prior = prior_wb_determinations,
+	warmup = 1000, iter = 2000,
+	cores = 4,
+	seed = 12345
+	)
+
+print(fit_wb_determinations_brms)
 ```
 
 

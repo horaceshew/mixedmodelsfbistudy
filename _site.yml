@@ -1,6 +1,6 @@
 ---
 name: ""
-title: "R Website"
+title: "R Mixed Models Packages"
 theme: theme.css
 output_dir: "docs"
 navbar:
