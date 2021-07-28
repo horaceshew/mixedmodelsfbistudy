@@ -6,6 +6,9 @@ description: |
 
 brms has the capabilities to fit both linear and non-linear generalized multivariate multilevel models. It uses the C++ pacakge Stan to perform Bayesian inference by running MCMC algorithms to draw from the posterior sample. This allows users to specify a prior distribution to reflect their beliefs. This package can be utilized to run Bayesian IRT Models. In addition to the Rasch Model, it supports other IRT classes including 2PL and Ordinal Models.
 
+
+Below, a Rasch model is fit using brms.
+
 ```{r, echo=FALSE}
 library(graphics)
 library(bookdown)

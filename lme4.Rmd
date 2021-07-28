@@ -5,6 +5,8 @@ description: |
 ---
 
 
+Below, a Rasch model is fit using lme4.
+
 ```{r, echo=FALSE}
 library(graphics)
 library(bookdown)
