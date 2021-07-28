@@ -1,7 +1,7 @@
 ---
 title: "lme4"
 description: |
-  lme4 is a model-fitting R package.
+  lme4 is a model-fitting R package that allows users to fit linear and generalized linear mixed-effects models.
 ---
 
 
